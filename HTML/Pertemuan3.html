@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pertemuan 3</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./../style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- place navbar here -->
+      <div class="wrapper">
+        <a href="./../index.html"><h1 class="headTittle"></h1></a>
+        <p class="miniKet">Agung Wijoyo S.Kom.,M.Kom.</p>
+      </div>
+      <!-- place navbar here -->
+
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" id="navId" role="tablist">
+        <li class="nav-item">
+          <a href="#" class="nav-link active" data-bs-toggle="tab" aria-current="page">Pertemuan 3</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Pertemuan Lain</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="./Pertemuan2.html">Pertemuan 2</a>
+            <a class="dropdown-item" href="./Pertemuan4.html">Pertemuan 4 (switch)</a>
+            <a class="dropdown-item" href="./Pertemuan5.html">Pertemuan 5 (for)</a>
+            <a class="dropdown-item" href="./Pertemuan6.html">Pertemuan 6 (while)</a>
+            <a class="dropdown-item" href="./Pertemuan7.html">Pertemuan 7 (fungsi)</a>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan 8 (array)</a>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan 9 (string)</a>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan 10 (pointer)</a>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan 11 (structure)</a>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan 12 (sorting)</a>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan 13 (searching)</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan Akhir</a>
+          </div>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a href="./../Doc/algoritmaDanPemrograman.pdf" target="_blank" class="nav-link">Download PDF Pratikum</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a href="#" class="nav-link disabled" data-bs-toggle="tab">Nothing</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <h2>Pertemuan 3</h2>
+      <h4>Decision ( If..Else )</h4>
+      <ol>
+        <li class="Pertemuan 3_a">
+          <h6>Pertemuan 3_a</h6>
+          <p class="infoKet">( Program Menentukan Nilai Kelulusan Dari 3 Nilai )</p>
+
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".inputPertm3_a" role="button" aria-expanded="false" aria-controls="inputPertm3_a">Lihat Input</a>
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".outputPertm3_a" role="button" aria-expanded="false" aria-controls="outputPertm3_a">Lihat Output</a>
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse inputPertm3_a">
+                <div class="card card-body">
+                  <textarea name="pert2_a" rows="10" readonly>
+#include<stdio.h>
+main()
+{
+  int mtk, indo, inggris;
+  printf ("Masukkan nilai Matematika : ");
+  scanf ("%d", &mtk);
+  printf ("Masukkan nilai B.Indonesia : ");
+  scanf ("%d", &indo);
+  printf ("Masukkan nilai B.Inggris : ");
+  scanf ("%d", &inggris);
+  printf ("------------------------------\n");
+  if (mtk>=75 && indo>=80 && inggris>=80) {
+    printf ("Anda LULUS\n");
+  } else {
+    printf ("Anda TIDAK LULUS");
+  }
+}
+                    </textarea
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse outputPertm3_a">
+                <div class="card card-body">
+                  <img src="./../img/Screenshoot_Algo_I/Pertemuan 3/Pertm3_a.png" alt="Output_Pertm3.a" class="imgOuputSS" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="Pertemuan 3_b">
+          <h6>Pertemuan 3_b</h6>
+          <p class="infoKet">( Program Menentukan Diskon Belanja )</p>
+
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".inputPertm3_b" role="button" aria-expanded="false" aria-controls="inputPertm3_b">Lihat Input</a>
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".outputPertm3_b" role="button" aria-expanded="false" aria-controls="outputPertm3_b">Lihat Output</a>
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse inputPertm3_b">
+                <div class="card card-body">
+                  <textarea name="pert2_a" rows="10" readonly>
+#include <iostream>
+using namespace std;
+main()
+{
+  long int totalBelanja, hargaAkhir;
+  cout << "Masukkan Total Belanja: Rp."; cin >> totalBelanja;
+  cout << "---------------------------------------\n";
+  if ((totalBelanja >= 100000) && (totalBelanja < 500000)) {
+  hargaAkhir = totalBelanja - (0.10*totalBelanja);
+  cout << " Selamat, anda mendapat diskon 10%" << endl;
+  }
+  else if ((totalBelanja >= 500000) && (totalBelanja < 1000000)) {
+  hargaAkhir = totalBelanja - (0.15*totalBelanja);
+  cout << " Selamat, anda mendapat diskon 15%" << endl;
+  }
+  else if (totalBelanja >= 1000000) {
+  hargaAkhir = totalBelanja - (0.20*totalBelanja);
+  cout << " Selamat, anda mendapat diskon 20%" << endl;
+  } 
+  else {
+  hargaAkhir = totalBelanja; 
+  cout << " Maaf, anda tidak mendapat diskon" << endl;
+  }
+  cout << "\n Total bayar: Rp." << hargaAkhir << endl;
+}
+                </textarea
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse outputPertm3_b">
+                <div class="card card-body">
+                  <img src="./../img/Screenshoot_Algo_I/Pertemuan 3/Pertm3_b.png" alt="Output_Pertm3.b" class="imgOuputSS" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="Pertemuan 3_c">
+          <h6 class="ops">Pertemuan 3_c (Opsional)</h6>
+          <p class="infoKet">( Program Menentukan Negatif Atau Positif Sebuah Nilai )</p>
+
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".inputPertm3_c" role="button" aria-expanded="false" aria-controls="inputPertm3_c">Lihat Input</a>
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".outputPertm3_c" role="button" aria-expanded="false" aria-controls="outputPertm3_c">Lihat Output</a>
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse inputPertm3_c">
+                <div class="card card-body">
+                  <textarea name="pert2_a" rows="10" readonly>
+#include<stdio.h>
+main()
+{
+  int x;
+  printf ("Masukaan nilai x : "); scanf("%d", &x);
+  printf ("------------------------\n");
+  if (x>0){
+    printf ("%d Adalah bilangan Positif", x);
+  } else if (x<0){
+    printf ("%d Adalah bilangan Negatif", x);
+  } else{
+  printf ("%d Adalah bilangan 0", x);
+  }
+}
+                </textarea
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse outputPertm3_c">
+                <div class="card card-body">
+                  <img src="./../img/Screenshoot_Algo_I/Pertemuan 3/Pertm3_c.png" alt="Output_Pertm3.c" class="imgOuputSS" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="Pertemuan 3_d">
+          <h6 class="ops">Pertemuan 3_d (Opsional)</h6>
+          <p class="infoKet">( Program Menentukan Huruf Dari Nilai )</p>
+
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".inputPertm3_d" role="button" aria-expanded="false" aria-controls="inputPertm3_d">Lihat Input</a>
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".outputPertm3_d" role="button" aria-expanded="false" aria-controls="outputPertm3_d">Lihat Output</a>
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse inputPertm3_d">
+                <div class="card card-body">
+                  <textarea name="pert2_a" rows="10" readonly>
+#include<stdio.h>
+main()
+{
+  int nilai;
+  char huruf;
+  printf ("Masukkan nilai : "); scanf ("%d", &nilai);
+  printf ("---------------------------------\n");
+  if (nilai>=81 && nilai<=100){
+      huruf = 'A';
+  } else if (nilai>=71 && nilai<81){
+      huruf = 'B';
+  } else if (nilai>=61 && nilai<71){	
+      huruf = 'C';
+  } else if (nilai>=51 && nilai<61){
+      huruf = 'D';
+  } else{
+      huruf = 'E';
+  }
+  printf (" Nilai anda : %d \n", nilai);
+  printf (" Huruf anda : %c", huruf);
+}
+                </textarea
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse outputPertm3_d">
+                <div class="card card-body">
+                  <img src="./../img/Screenshoot_Algo_I/Pertemuan 3/Pertm3_d.png" alt="Output_Pertm3.d" class="imgOuputSS" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="Pertemuan 3_Tugas_Akhir">
+          <h6 class="ops">Pertemuan 3_Tugas_Akhir (Opsional)</h6>
+          <p class="infoKet">( Program Menentukan Nama Hari Berdasarkan Angka Hari )</p>
+
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".inputPertm3_Tugas_Akhir" role="button" aria-expanded="false" aria-controls="inputPertm3_Tugas_Akhir">Lihat Input</a>
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".outputPertm3_Tugas_Akhir" role="button" aria-expanded="false" aria-controls="outputPertm3_Tugas_Akhir">Lihat Output</a>
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse inputPertm3_Tugas_Akhir">
+                <div class="card card-body">
+                  <textarea name="pert3_Tugas_Akhir" rows="10" readonly>
+#include<stdio.h>
+main()
+{
+  int hari;
+      printf ("Masukan kode hari [ 1 - 7 ] : ");
+      scanf("%d",&hari);
+  if(hari == 1) {
+      printf("Senin");
+  } else if(hari == 2) {
+      printf("Selasa");
+  } else if(hari == 3) {
+      printf("Rabu");
+  } else if(hari == 4) {
+      printf("Kamis");
+  } else if(hari == 5) {
+      printf("Jum'at");
+  } else if(hari == 6) {
+      printf("Sabtu");
+  } else if(hari == 7) {
+      printf("Minggu");
+  } else {
+      printf("Kode Tidak ada");
+  }
+}   
+                </textarea
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse outputPertm3_Tugas_Akhir">
+                <div class="card card-body">
+                  <img src="./../img/Screenshoot_Algo_I/Pertemuan 3/Pertm3_Tugas_Akhir.png" alt="Output_Pertm3.TugasAkhir" class="imgOuputSS" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ol>
+    </main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+    <!-- GSAP JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.headTittle', { duration: 2.2, delay: 0.5, text: 'Algoritma & Pemrograman Dasar I' });
+    </script>
+  </body>
+</html>

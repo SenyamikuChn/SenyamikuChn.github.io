@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pertemuan 4</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./../style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- place navbar here -->
+      <!-- place navbar here -->
+      <div class="wrapper">
+        <a href="./../index.html"><h1 class="headTittle"></h1></a>
+        <p class="miniKet">Agung Wijoyo S.Kom.,M.Kom.</p>
+      </div>
+      <!-- place navbar here -->
+
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" id="navId" role="tablist">
+        <li class="nav-item">
+          <a href="#" class="nav-link active" data-bs-toggle="tab" aria-current="page">Pertemuan 4</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Pertemuan Lain</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="./Pertemuan2.html">Pertemuan 2</a>
+            <a class="dropdown-item" href="./Pertemuan3.html">Pertemuan 3 (if)</a>
+            <a class="dropdown-item" href="./Pertemuan5.html">Pertemuan 5 (for)</a>
+            <a class="dropdown-item" href="./Pertemuan6.html">Pertemuan 6 (while)</a>
+            <a class="dropdown-item" href="./Pertemuan7.html">Pertemuan 7 (fungsi)</a>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan 8 (array)</a>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan 9 (string)</a>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan 10 (pointer)</a>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan 11 (structure)</a>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan 12 (sorting)</a>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan 13 (searching)</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan Akhir</a>
+          </div>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a href="./../Doc/algoritmaDanPemrograman.pdf" target="_blank" class="nav-link">Download PDF Pratikum</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a href="#" class="nav-link disabled" data-bs-toggle="tab">Nothing</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <h2>Pertemuan 4</h2>
+      <h4>Decision ( Switch..Case )</h4>
+      <ol>
+        <li class="Pertemuan 4_a">
+          <h6>Pertemuan 4_a</h6>
+          <p class="infoKet">( Program Menentukan Hari Dari Angka Hari )</p>
+
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".inputPertm4_a" role="button" aria-expanded="false" aria-controls="inputPertm4_a">Lihat Input</a>
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".outputPertm4_a" role="button" aria-expanded="false" aria-controls="outputPertm4_a">Lihat Output</a>
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse inputPertm4_a">
+                <div class="card card-body">
+                  <textarea name="pert4_a" rows="10" wrap="soft" readonly>
+#include <stdio.h>
+main()
+{
+int kdhari;
+    printf ("Masukan kode hari 1-7 :");
+    scanf("%d",&kdhari);
+switch (kdhari)
+    {
+    case 1:
+        printf("Senin"); break;
+    case 2:
+        printf("Selasa"); break;
+    case 3:
+        printf("Rabu"); break;
+    case 4:
+        printf("Kamis"); break;
+    case 5:
+        printf("Jumat"); break;
+    case 6:
+        printf("Sabtu"); break;
+    case 7:
+        printf("Minggu"); break;
+    default:
+        printf("Kode Tidak ada");
+    }
+  }
+                    </textarea
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse outputPertm4_a">
+                <div class="card card-body">
+                  <img src="./../img/Screenshoot_Algo_I/Pertemuan 4/Pertm4_a.png" alt="Output_Pertm4_a" class="imgOuputSS" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="Pertemuan 4_b">
+          <h6 class="ops">Pertemuan 4_b (Opsional)</h6>
+          <p class="infoKet">( Program Memilih Rumus Untuk Luas & Keliling Persegi, Segitiga, & Lingkaran )</p>
+
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".inputPertm4_b" role="button" aria-expanded="false" aria-controls="inputPertm4_b">Lihat Input</a>
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".outputPertm4_b" role="button" aria-expanded="false" aria-controls="outputPertm4_b">Lihat Output</a>
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse inputPertm4_b">
+                <div class="card card-body">
+                  <textarea name="pert4_a" rows="10" readonly>
+#include <stdio.h>
+main()
+{
+  char kode;
+  float sisi, panjang, lebar, r, phi, luas, keliling;
+  
+  printf (" ======== MENCARI LUAS DAN KELILING ======== \n");
+  printf ("\n \tS untuk Segitiga \n \tP untuk Persegi \n \tL untuk Lingaran \n");
+  printf ("\nPilih kode [S, P, L] : ");
+  scanf ("%c",&kode);
+  
+  switch (kode) {
+      case 'S':
+          printf ("Masukkan Sisi : ");
+          scanf ("%f",&sisi);
+          luas = sisi*sisi / 2;
+          keliling = sisi*3;
+          printf ("\n Luas segitiga : %f \n", luas);
+          printf (" Keliling Segitiga nya adalah : %f", keliling);
+          break;
+      case 'P' :
+          printf ("Masukkan Panjang Persegi Panjang : ");
+          scanf ("%f",&panjang);
+          printf ("Masukkan Lebar persegi panjang : ");
+          scanf ("%f", &lebar);
+          luas = panjang * lebar;
+          keliling = 2 * (panjang + lebar);
+          printf ("\n Luas Persegi Panjang nya adalah : %f \n", luas);
+          printf (" Luas Persegi Panjang nya adalah : %f", keliling);
+          break;
+      case 'L' :
+          printf ("Masukkan jari-jari Lingkaran : ");
+          scanf ("%f", &r);
+          phi = 3.14;
+          luas = phi* (r*r);
+          keliling = 2 * phi * r;
+          printf ("\n Luas Lingkaran nya adalah : %f \n", luas);
+          printf (" Keliling Lingkaran nya adalah %f", keliling);
+          break;
+          
+  }
+}
+                </textarea
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse outputPertm4_b">
+                <div class="card card-body">
+                  <img src="./../img/Screenshoot_Algo_I/Pertemuan 4/Pertm4_b.png" alt="Output_Pertm4_b" class="imgOuputSS" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="Pertemuan 4_Tugas_Akhir">
+          <h6 class="ops">Pertemuan 4_Tugas_Akhir (Opsional)</h6>
+          <p class="infoKet">( Program Menentukan Bonus Dari Total Belanja )</p>
+
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".inputPertm4_Tugas_Akhir" role="button" aria-expanded="false" aria-controls="inputPertm4_Tugas_Akhir">Lihat Input</a>
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".outputPertm4_Tugas_Akhir" role="button" aria-expanded="false" aria-controls="outputPertm4_Tugas_Akhir">Lihat Output</a>
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse inputPertm4_Tugas_Akhir">
+                <div class="card card-body">
+                  <textarea name="pert4_a" rows="10" readonly>
+#include<stdio.h>
+main ()
+{
+  long int total;
+  
+  printf("---------------Belanja Dengan Total Minimal Rp100.000,00 Untuk Mendapatkan Bonus-------------------\n");
+  printf("\nMasukkan Total Belanja Anda : Rp"); scanf("%ld",&total);
+  printf("\n");
+  
+  switch (total){
+      case 0 ... 99999 :
+          printf("Maaf, Minimal Total Belanja Harus Rp100.000,00");
+          break;
+      case 100000 ... 199999 :
+          total -= (total*0.05);
+          printf("Bonus Diskon 5%% = Rp%ld",total);
+          break;
+      case 200000 ... 299999 :
+          printf("Bonus Tiket Ke Yogyakarta");
+          break;
+      case 300000 ... 399999 :
+          printf("Bonus Tiket Ke Bali");
+          break;
+      case 400000 ... 499999 :
+          printf("Bonus Jam Tangan Rolex");
+          break;
+      default :
+          printf("Bonus Tiket Ke Swiss");
+          break;
+  }
+  printf("\n");
+}
+                </textarea
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse outputPertm4_Tugas_Akhir">
+                <div class="card card-body">
+                  <img src="./../img/Screenshoot_Algo_I/Pertemuan 4/Pertm4_Tugas_Akhir.png" alt="Output_Pertm3_TugasAkhir" class="imgOuputSS" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ol>
+    </main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+    <!-- GSAP JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.headTittle', { duration: 2.2, delay: 0.5, text: 'Algoritma & Pemrograman Dasar I' });
+    </script>
+  </body>
+</html>

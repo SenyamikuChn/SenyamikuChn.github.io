@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pertemuan 6</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./../style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- place navbar here -->
+      <!-- place navbar here -->
+      <div class="wrapper">
+        <a href="./../index.html"><h1 class="headTittle"></h1></a>
+        <p class="miniKet">Agung Wijoyo S.Kom.,M.Kom.</p>
+      </div>
+      <!-- place navbar here -->
+
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" id="navId" role="tablist">
+        <li class="nav-item">
+          <a href="#" class="nav-link active" data-bs-toggle="tab" aria-current="page">Pertemuan 6</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Pertemuan Lain</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="./Pertemuan2.html">Pertemuan 2</a>
+            <a class="dropdown-item" href="./Pertemuan3.html">Pertemuan 3 (if)</a>
+            <a class="dropdown-item" href="./Pertemuan4.html">Pertemuan 4 (switch)</a>
+            <a class="dropdown-item" href="./Pertemuan5.html">Pertemuan 5 (for)</a>
+            <a class="dropdown-item" href="./Pertemuan7.html">Pertemuan 7 (fungsi)</a>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan 8 (array)</a>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan 9 (string)</a>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan 10 (pointer)</a>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan 11 (structure)</a>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan 12 (sorting)</a>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan 13 (searching)</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="./blankAcces.html">Pertemuan Akhir</a>
+          </div>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a href="./../Doc/algoritmaDanPemrograman.pdf" target="_blank" class="nav-link">Download PDF Pratikum</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a href="#" class="nav-link disabled" data-bs-toggle="tab">Nothing</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <h2>Pertemuan 6</h2>
+      <h4>Looping ( While )</h4>
+      <ol>
+        <li class="Pertemuan 6_a">
+          <h6>Pertemuan 6_a</h6>
+          <p class="infoKet">( Program Membuat Deret 1 Sampai 10 )</p>
+
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".inputPertm6_a" role="button" aria-expanded="false" aria-controls="inputPertm6_a">Lihat Input</a>
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".outputPertm6_a" role="button" aria-expanded="false" aria-controls="outputPertm6_a">Lihat Output</a>
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse inputPertm6_a">
+                <div class="card card-body">
+                  <textarea name="pertm6_a" rows="10" wrap="soft" readonly>
+#include<stdio.h>
+main()
+{
+  int counter;
+  counter = 0;
+  do
+    {
+      printf("c++\n");
+      counter++;
+    }
+  while(counter<15);
+}
+                    </textarea
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse outputPertm6_a">
+                <div class="card card-body">
+                  <img src="./../img/Screenshoot_Algo_I/Pertemuan 6/Pertm6_a.png" alt="Output_Pertm6_a" class="imgOuputSS" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="Pertemuan 6_b">
+          <h6>Pertemuan 6_b</h6>
+          <p class="infoKet">( Program Membuat Deret 10 -1)</p>
+
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".inputPertm6_b" role="button" aria-expanded="false" aria-controls="inputPertm6_b">Lihat Input</a>
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".outputPertm6_b" role="button" aria-expanded="false" aria-controls="outputPertm6_b">Lihat Output</a>
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse inputPertm6_b">
+                <div class="card card-body">
+                  <textarea name="pertm6_b" rows="10" wrap="soft" readonly>
+#include<stdio.h>
+main()
+{
+  int i;
+  i=10;
+  while (i>0)
+    {
+      printf ("%d\n",i);
+      i--;
+    }
+}
+                      </textarea
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse outputPertm6_b">
+                <div class="card card-body">
+                  <img src="./../img/Screenshoot_Algo_I/Pertemuan 6/Pertm6_b.png" alt="Output_Pertm6_b" class="imgOuputSS" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="Pertemuan 6_c">
+          <h6>Pertemuan 6_c</h6>
+          <p class="infoKet">( Program Menghitung Sisa Bagi Dengan 2/3/4/5 )</p>
+
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".inputPertm6_c" role="button" aria-expanded="false" aria-controls="inputPertm6_c">Lihat Input</a>
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".outputPertm6_c" role="button" aria-expanded="false" aria-controls="outputPertm6_c">Lihat Output</a>
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse inputPertm6_c">
+                <div class="card card-body">
+                  <textarea name="pertm6_c" rows="10" readonly>
+#include<stdio.h>
+#include<ctype.h>
+main()
+{
+  int nomer, bagi, sisa=0;
+  char chrpilihan;
+  do
+  {
+    printf("masukan suatu bilangan :"); scanf("%d", &nomer);
+    printf("masukan bilangan pembagi (2/3/4/5): ");scanf("%d", &bagi);
+    printf("bilangan yang di pilih : %d\n", nomer);
+    printf("bilangan pembagi : %d\n", bagi);
+    sisa = nomer % bagi;
+    if (sisa == 0)
+    {
+      printf("sisa bagi : tidak ada\n");
+    }
+    else
+    {
+      printf("sisa bagi: %d\n", sisa);
+    }
+    printf( "\napakah anda ingin meneruskan ? (y/n) :");
+    scanf (" %c", &chrpilihan);
+  }
+  while(chrpilihan == 'y');
+}
+                </textarea
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse outputPertm6_c">
+                <div class="card card-body">
+                  <img src="./../img/Screenshoot_Algo_I/Pertemuan 6/Pertm6_c.png" alt="Output_Pertm6_c" class="imgOuputSS" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="Pertemuan 6_d">
+          <h6 class="ops">Pertemuan 6_d (Opsional)</h6>
+          <p class="infoKet">( Program Membuat Deret Ganjil & Genap )</p>
+
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".inputPertm6_d" role="button" aria-expanded="false" aria-controls="inputPertm6_d">Lihat Input</a>
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".outputPertm6_d" role="button" aria-expanded="false" aria-controls="outputPertm6_d">Lihat Output</a>
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse inputPertm6_d">
+                <div class="card card-body">
+                  <textarea name="pert5_d" id="" rows="10">
+#include<stdio.h>
+#include<iostream>
+using namespace std;
+main()
+{
+  int x -1;
+  cout<<"Ganjil : ";
+  do
+    {
+      x+=1;
+      x++;
+      cout<<x<<" ";
+    }while(x <35);
+  cout<<"\n";
+  
+  int y=0;
+  cout<<"Genap : ";
+  do
+    {
+      y=y+1;
+      y++;
+      cout<<y<<" ";
+    }while(y <34);
+}                   
+                  </textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse outputPertm6_d">
+                <div class="card card-body">
+                  <img src="./../img/Screenshoot_Algo_I/Pertemuan 6/Pertm6_d.png" alt="Output_Pertm3.c" class="imgOuputSS" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="Pertemuan 6_Tugas_Akhir">
+          <h6 class="ops">Pertemuan 6_Tugas_Akhir (Opsional)</h6>
+          <p class="infoKet">( Program Membuat Deret Bilangan Fibonacci )</p>
+
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".inputPertm6_Tugas_Akhir" role="button" aria-expanded="false" aria-controls="inputPertm6_Tugas_Akhir">Lihat Input</a>
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".outputPertm6_Tugas_Akhir" role="button" aria-expanded="false" aria-controls="outputPertm6_Tugas_Akhir">Lihat Output</a>
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse inputPertm6_Tugas_Akhir">
+                <div class="card card-body">
+                  <textarea name="pert5_Tugas_Akhir" rows="10" readonly>
+#include<stdio.h>
+main()
+{
+  int f1 = 0, f2 = 1, fn = 0, i=1;
+  do
+    {
+      i++;
+      if(i == 1)
+        {
+            printf (" %d ", f1);
+            continue;
+        }
+      if(i == 2)
+        {	
+            printf (" %d ", f2);
+            continue;
+        }
+      fn = f1 + f2;
+      f1 = f2;
+      f2 = fn;
+      printf (" %d ", f2);
+
+    } while(i <= 12);
+}
+                </textarea
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse outputPertm6_Tugas_Akhir">
+                <div class="card card-body">
+                  <img src="./../img/Screenshoot_Algo_I/Pertemuan 6/Pertm6_Tugas_Akhir.png" alt="Output_Pertm3_TugasAkhir" class="imgOuputSS" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ol>
+    </main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+    <!-- GSAP JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.headTittle', { duration: 2.2, delay: 0.5, text: 'Algoritma & Pemrograman Dasar I' });
+    </script>
+  </body>
+</html>
