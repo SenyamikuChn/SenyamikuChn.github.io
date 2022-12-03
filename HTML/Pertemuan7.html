@@ -254,6 +254,55 @@ main()
             </div>
           </div>
         </li>
+        <li class="Pertemuan 7_d">
+          <h6>Pertemuan 7_e</h6>
+          <p class="infoKet">( Program Perkalian 3 Bilangan )</p>
+
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".inputPertm7_e" role="button" aria-expanded="false" aria-controls="inputPertm7_e">Lihat Input</a>
+          <a class="btn btn-primary mb-2 ms-sm-4" data-bs-toggle="collapse" href=".outputPertm7_e" role="button" aria-expanded="false" aria-controls="outputPertm7_e">Lihat Output</a>
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse inputPertm7_e">
+                <div class="card card-body">
+                  <textarea name="pert7_e" id="" rows="10">
+#include<iostream>
+using namespace std;
+                    
+int mult(int x, int y, int z);
+                    
+int main()
+{
+ 	int x, y, z;
+ 	cout << "masukan bilangan pertama :";
+ 	cin>>x;
+ 	cout << "masukan bilangan kedua :";
+ 	cin>>y;
+ 	cout << "masukan bilangan ketiga :";
+ 	cin>>z;
+ 	cout<< "hasil perkalian bilangan itu adalah " << mult(x, y, z);
+ 	return 0;
+}
+                    
+int mult(int x, int y, int z)
+{
+ 	return x*y*z;
+}           
+                  </textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="collapse multi-collapse outputPertm7_e">
+                <div class="card card-body">
+                  <img src="./../img/Screenshoot_Algo_I/Pertemuan 7/Pertm7_e.png" alt="Output_Pertm7_e" class="imgOuputSS" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
         <li class="Pertemuan 7_Tugas_Akhir">
           <h6 class="ops">Pertemuan 7_Tugas_Akhir (Opsional)</h6>
           <p class="infoKet">( Program Membuat Deret Ganjil Genap )</p>
